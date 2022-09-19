@@ -1,0 +1,54 @@
+#$ TITLE: d1g1t4lb0y OSD for Analogue
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: d1g1t4lb0y, OSD, NTSC, PAL, analogue, analog
+#$ AUTHOR: d1g1t4lb0y
+
+#$ DESCRIPTION: OSD settings for Analogue quads with NTSC (default) or PAL cameras.
+#$ DESCRIPTION: Includes current settings as that is the most common setup for micros.
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+# -- Common Settings --
+set osd_warn_batt_not_full = OFF
+set osd_warn_batt_warning = OFF
+set osd_warn_esc_fail = OFF
+set osd_warn_core_temp = OFF
+set osd_stat_max_spd = OFF
+set osd_stat_endbatt = ON
+set osd_stat_battery = ON
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_max_fft = ON
+
+#$ OPTION BEGIN (CHECKED): NTSC
+set vcd_video_system = NTSC
+set osd_rssi_pos = 314
+set osd_link_quality_pos = 2103
+set osd_rssi_dbm_pos = 2135
+set osd_tim_2_pos = 2081
+set osd_flymode_pos = 2457
+set osd_throttle_pos = 2425
+set osd_vtx_channel_pos = 2113
+set osd_current_pos = 2400
+set osd_mah_drawn_pos = 2432
+set osd_craft_name_pos = 2445
+set osd_warnings_pos = 2410
+set osd_avg_cell_voltage_pos = 2093
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): PAL
+set vcd_video_system = PAL
+set osd_rssi_pos = 314
+set osd_link_quality_pos = 2103
+set osd_rssi_dbm_pos = 2135
+set osd_tim_2_pos = 2081
+set osd_flymode_pos = 2521
+set osd_throttle_pos = 2489
+set osd_vtx_channel_pos = 2113
+set osd_current_pos = 2464
+set osd_mah_drawn_pos = 2496
+set osd_craft_name_pos = 2508
+set osd_warnings_pos = 2473
+set osd_avg_cell_voltage_pos = 2092
+#$ OPTION END
