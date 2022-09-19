@@ -21,6 +21,8 @@ set osd_stat_bbox = OFF
 set osd_stat_bb_no = OFF
 set osd_stat_max_fft = ON
 
+#$ OPTION_GROUP BEGIN: Colour Encoding System
+
 #$ OPTION BEGIN (CHECKED): NTSC
 set vcd_video_system = NTSC
 set osd_rssi_pos = 314
@@ -52,3 +54,5 @@ set osd_craft_name_pos = 2508
 set osd_warnings_pos = 2473
 set osd_avg_cell_voltage_pos = 2092
 #$ OPTION END
+
+#$ OPTION_GROUP END
