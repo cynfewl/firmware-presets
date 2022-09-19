@@ -20,7 +20,7 @@ set yaw_lowpass_hz = 0
 set rpm_filter_min_hz = 150
 
 # -- Filter Sliders --
-set simplified_dterm_filter = on
+set simplified_dterm_filter = ON
 set simplified_dterm_filter_multiplier = 130
 set simplified_gyro_filter = ON
 set simplified_gyro_filter_multiplier = 130
@@ -41,4 +41,5 @@ set simplified_feedforward_gain = 130
 set simplified_pitch_d_gain = 85
 set simplified_pitch_pi_gain = 90
 set simplified_dterm_filter_multiplier = 130
+
 simplified_tuning apply
