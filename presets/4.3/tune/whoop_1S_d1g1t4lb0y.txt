@@ -5,8 +5,6 @@
 #$ KEYWORDS: whoop, 65mm, 75mm, 1S, race, acro, tune, brushless
 #$ AUTHOR: d1g1t4lb0y
 
-#$ PARSER: MARKED
-
 #$ DESCRIPTION: Information:
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: Base tune for a 1S Whoop.  This tune is based on the HappyModel Mobula7 1S default tune but customised for RPM Filtering.
