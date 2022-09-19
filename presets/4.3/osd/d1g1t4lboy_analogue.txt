@@ -1,6 +1,6 @@
 #$ TITLE: d1g1t4lb0y OSD for Analogue
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: RATES
+#$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: d1g1t4lb0y, OSD, NTSC, PAL, analogue, analog
 #$ AUTHOR: d1g1t4lb0y
