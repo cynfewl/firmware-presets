@@ -231,6 +231,7 @@
       "adjustments",
       "AlexFPV",
       "analog",
+      "analogue",
       "AOS",
       "AOS T3",
       "Audio TBS",
@@ -260,6 +261,7 @@
       "CRSF",
       "ctzsnooze",
       "CTZsoonze",
+      "d1g1t4lb0y",
       "DDC",
       "default",
       "defaults",
@@ -332,6 +334,7 @@
       "Long Range",
       "mamba",
       "meteor",
+      "micro",
       "MinChan",
       "mode",
       "modes",
@@ -346,6 +349,7 @@
       "no rpm",
       "noisy",
       "normal",
+      "NTSC",
       "OP400",
       "OpenRacer",
       "OpenVTx",
@@ -353,10 +357,12 @@
       "output limit",
       "OVX300",
       "OVX303",
+      "PAL",
       "partial",
       "Passthrough",
       "pid",
       "PIDtoolbox",
+      "PMB",
       "pro32",
       "profile",
       "Pure Race",
@@ -830,6 +836,26 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/osd/d1g1t4lboy_analogue.txt",
+      "hash": "2ca58be9690e164c81a81635dd200efae326af8487aa9f7a6b4ad8f9488a1124",
+      "title": "d1g1t4lb0y OSD for Analogue",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "d1g1t4lb0y",
+        "OSD",
+        "NTSC",
+        "PAL",
+        "analogue",
+        "analog"
+      ],
+      "author": "d1g1t4lb0y",
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "title": "Default 4.3 OSD settings",
@@ -1276,6 +1302,27 @@
         "race rates ctzsnooze actual"
       ],
       "author": "ctzsnooze",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/d1g1t4lb0y.txt",
+      "hash": "49fdfc3e772999f09dc7acc2f000c5e553cf247316b53ef7742f80efa03cd010",
+      "title": "d1g1t4lb0y rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "d1g1t4lb0y",
+        "rates",
+        "betaflight",
+        "PMB",
+        "micro",
+        "1S",
+        "2S"
+      ],
+      "author": "d1g1t4lb0y",
       "priority": 10000
     },
     {
@@ -2367,6 +2414,28 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.3/tune/d1g1t4lb0y_1S_whoop.txt",
+      "hash": "dd9b9dcd03cb9bb3dc736f51553726a5d5791334bf7dc9392e91e4c296f7ee98",
+      "title": "d1g1t4lb0y - 1S Whoop",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "whoop",
+        "65mm",
+        "75mm",
+        "1S",
+        "race",
+        "acro",
+        "tune",
+        "brushless"
+      ],
+      "author": "d1g1t4lb0y",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.3/tune/defaults.txt",
       "hash": "828b9a4b14377cd9d59d803afb9c6ae3eda6d5cb7865cbf21c95c5f55acdaa05",
       "title": "Tune defaults for Basic 4.3 TUNES",
@@ -2902,28 +2971,6 @@
         "whoop"
       ],
       "author": "UAV Tech (Mark Spatz)",
-      "priority": 1000000000000
-    },
-    {
-      "fullPath": "presets/4.3/tune/whoop_1S_d1g1t4lb0y.txt",
-      "hash": "e2822e72fe66dcb0343fe008132364af6fdeb8a46fbd76036b78a7ea0ef4b40b",
-      "title": "d1g1t4lb0y - 1S Whoop",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "whoop",
-        "65mm",
-        "75mm",
-        "1S",
-        "race",
-        "acro",
-        "tune",
-        "brushless"
-      ],
-      "author": "d1g1t4lb0y",
       "priority": 1000000000000
     },
     {

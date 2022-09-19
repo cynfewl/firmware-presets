@@ -5,13 +5,19 @@
 #$ KEYWORDS: whoop, 65mm, 75mm, 1S, race, acro, tune, brushless
 #$ AUTHOR: d1g1t4lb0y
 
-#$ DESCRIPTION: Information:
-#$ DESCRIPTION: -----------
-#$ DESCRIPTION: Base tune for a 1S Whoop.  This tune is based on the HappyModel Mobula7 1S default tune but customised for RPM Filtering.
-#$ DESCRIPTION: 
-#$ WARNING: This tune assumes you have enabled and configured RPM filtering. If you have not already done this please complete this step before applying the preset.
+#$ DESCRIPTION: Base tune for a 1S Whoop that is based on the HappyModel Mobula7 1S default tune but customised to include RPM Filtering.
+#$ DESCRIPTION: In my testing this works fine for 65mm with 31mm and 35mm props and 75mm with bi-blades.
+#$ DESCRIPTION: Note that this requires Bluejay ESC or other firmware that includes bidirectional DSHOT.
+#$ DESCRIPTION: I mostly use 24khz for less than 22,000kv and 48khz for higher, unless 24khz gives me particularly short flight times.
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 #$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# -- Bidirection DSHOT --
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
+set rpm_filter_harmonics = 2
+set dyn_notch_count = 2
 
 # -- Filter Settings --
 set gyro_lpf1_static_hz = 0
