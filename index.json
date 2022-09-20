@@ -2414,9 +2414,9 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.3/tune/d1g1t4lb0y_1S_whoop.txt",
-      "hash": "bd1bdb67af844cb13dfa6688c51a7762fa1e91ffba7aac6f6039eea83491899c",
-      "title": "d1g1t4lb0y - 1S Whoop",
+      "fullPath": "presets/4.3/tune/d1g1t4lb0y_1-2S_whoop.txt",
+      "hash": "46a3cd8af1ee76670edb312023a811d305650c9cf8e34133ae4ef0a0d5598bc7",
+      "title": "d1g1t4lb0y - 1-2S Whoop",
       "firmware_version": [
         "4.3"
       ],
@@ -2427,6 +2427,7 @@
         "65mm",
         "75mm",
         "1S",
+        "2S",
         "race",
         "acro",
         "tune",
