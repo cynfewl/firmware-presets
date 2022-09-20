@@ -39,7 +39,7 @@ set dyn_idle_min_rpm = 40
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 
-#$ OPTION_GROUP BEGIN: Battery Cells
+#$ OPTION_GROUP BEGIN: Battery Cells (Choose One)
 
 #$ OPTION BEGIN (CHECKED): 1S
 
