@@ -837,12 +837,12 @@
     },
     {
       "fullPath": "presets/4.3/osd/d1g1t4lboy_analogue.txt",
-      "hash": "2ca58be9690e164c81a81635dd200efae326af8487aa9f7a6b4ad8f9488a1124",
+      "hash": "4e9acc2fa8a875cdef62e3550e17955cca84bb70967f4ef1b5b79531f6406cf0",
       "title": "d1g1t4lb0y OSD for Analogue",
       "firmware_version": [
         "4.3"
       ],
-      "category": "RATES",
+      "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
         "d1g1t4lb0y",
@@ -853,7 +853,7 @@
         "analog"
       ],
       "author": "d1g1t4lb0y",
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/osd/defaults.txt",
@@ -2415,7 +2415,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/d1g1t4lb0y_1S_whoop.txt",
-      "hash": "dd9b9dcd03cb9bb3dc736f51553726a5d5791334bf7dc9392e91e4c296f7ee98",
+      "hash": "bd1bdb67af844cb13dfa6688c51a7762fa1e91ffba7aac6f6039eea83491899c",
       "title": "d1g1t4lb0y - 1S Whoop",
       "firmware_version": [
         "4.3"
