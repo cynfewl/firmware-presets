@@ -24,6 +24,7 @@ set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 0
 set yaw_lowpass_hz = 0
 set dyn_notch_count = 1
+set dyn_notch_q = 450
 set dyn_notch_min_hz = 100
 set dyn_notch_max_hz = 800
 
