@@ -1,14 +1,15 @@
-#$ TITLE: d1g1t4lb0y - 1S Whoop
+#$ TITLE: d1g1t4lb0y - 1-2S Whoop
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: whoop, 65mm, 75mm, 1S, race, acro, tune, brushless
+#$ KEYWORDS: whoop, 65mm, 75mm, 1S, 2S, race, acro, tune, brushless
 #$ AUTHOR: d1g1t4lb0y
 
-#$ DESCRIPTION: Base tune for a 1S Whoop that is based on the HappyModel Mobula7 1S default tune but customised to include RPM Filtering.
+#$ DESCRIPTION: Base tune for a 1-2S Whoop that is based on the HappyModel Mobula7 1S default tune but customised to include RPM Filtering.
 #$ DESCRIPTION: In my testing this works fine for 65mm with 31mm and 35mm props and 75mm with bi-blades.
 #$ DESCRIPTION: Note that this requires Bluejay ESC or other firmware that includes bidirectional DSHOT.
 #$ DESCRIPTION: I mostly use 24khz for less than 22,000kv and 48khz for higher, unless 24khz gives me particularly short flight times.
+#$ DESCRIPTION: The 2S tune is loosely based around halving the P and D for the 1S tune, which was a recommendation from Patrick J. Clark.
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
