@@ -42,6 +42,7 @@ set d_max_advance = 0
 set dyn_idle_min_rpm = 40
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
+set throttle_boost = 0
 
 #$ OPTION_GROUP BEGIN: Battery Cells (Choose One)
 
