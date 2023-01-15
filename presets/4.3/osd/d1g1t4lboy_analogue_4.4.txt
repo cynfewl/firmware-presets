@@ -7,7 +7,7 @@
 
 #$ DESCRIPTION: OSD settings for Analogue quads with NTSC (default) or PAL cameras.
 #$ DESCRIPTION: Includes current settings as that is the most common setup for micros.
-#$ INCLUDE: presets/4.4/osd/defaults.txt
+#$ INCLUDE: presets/4.3/osd/defaults.txt
 
 # -- Common Settings --
 set osd_warn_bitmask = 2045
