@@ -13,7 +13,7 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: The 2S tune is loosely based around halving the P and D for the 1S tune, which was a recommendation from Patrick J. Clark.
 #$ INCLUDE: presets/4.4/tune/defaults.txt
-#$ INCLUDE: presets/4.4/filters/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
 
 # -- Bidirection DSHOT --
 set dshot_bidir = ON
