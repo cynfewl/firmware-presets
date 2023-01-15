@@ -1,5 +1,5 @@
 #$ TITLE: d1g1t4lb0y - 1-2S Whoop
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: whoop, 65mm, 75mm, 1S, 2S, race, acro, tune, brushless
@@ -12,8 +12,8 @@
 #$ DESCRIPTION: I mostly use 24khz for less than 22,000kv and 48khz for higher, unless 24khz gives me particularly short flight times.
 #$ DESCRIPTION:
 #$ DESCRIPTION: The 2S tune is loosely based around halving the P and D for the 1S tune, which was a recommendation from Patrick J. Clark.
-#$ INCLUDE: presets/4.3/tune/defaults.txt
-#$ INCLUDE: presets/4.3/filters/defaults.txt
+#$ INCLUDE: presets/4.4/tune/defaults.txt
+#$ INCLUDE: presets/4.4/filters/defaults.txt
 
 # -- Bidirection DSHOT --
 set dshot_bidir = ON
